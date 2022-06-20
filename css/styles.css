@@ -1,0 +1,37 @@
+/* Ratawa*/
+
+
+
+
+
+
+
+
+
+/*Anfese*/
+.imagenxD{
+    width: 80px;
+    height: 80px;
+}
+
+.Cuadro{
+    width: 100%;
+    background-color:blueviolet;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.Cuadrito{
+    box-sizing: border-box;
+    padding: 30px;
+    background-color:rgba(59, 18, 97, 0.3);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/*Lorowo*/
