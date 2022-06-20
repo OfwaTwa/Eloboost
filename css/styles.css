@@ -22,28 +22,60 @@ h2{
 
 
 /*Anfese*/
+.MiParte{
+    background-color:rgb(35, 21, 38);
+    text-align:center;
+    height:1000px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    
+}
+h2{
+    color: #fff;
+    font-size: 3rem; 
+    margin: 5px 5px 5px 5px;   
+}
+h3{
+    color: rgb(243, 138, 82);
+    margin: 5px 5px 50px 5px;
+}
 .imagenxD{
     width: 80px;
     height: 80px;
+    
 }
 
 .Cuadro{
     width: 100%;
-    background-color:blueviolet;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     color: white;
+    font-size: 1.3rem;
+        
     
 }
 
 .Cuadrito{
     box-sizing: border-box;
+    height: 250px;
+    width: 250px;
     padding: 30px;
-    background-color:rgba(59, 18, 97, 0.3);
+    background-color:rgba(58, 38, 57, 0.9);
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: column;    
     align-items: center;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 3px 3px 30px rgb(26, 16, 29);
+    justify-content: center;
+    transition: box-shadow 1s ease; /* El tercero significa cómo se reparte la animación durante ese tiempo, empieza lento y termina rápido etc */
+    
+    
+}
+.Cuadrito:hover{
+    box-shadow: 3px 3px 70px rgb(112, 112, 112);
 }
 
 
