@@ -1,6 +1,8 @@
 /* Ratawa*/
 .body{
-
+    margin: 0px;
+    width: 0px;
+    padding: 0px;
 }
 header{
     background-image:url(https://eloboostroyal.es/assets/images/new/syndra-bg-v2.jpg);
